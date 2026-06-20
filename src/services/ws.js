@@ -5,7 +5,7 @@ let io
 function initializeSocket(server) {
   io = new Server(server, {
     cors: {
-      origin: 'https://chat-7myy.vercel.app/', // Replace with your frontend URL
+      origin: 'https://chat-7myy.vercel.app', // Replace with your frontend URL
       credentials: true,
       methods: ['GET', 'POST'],
     },
