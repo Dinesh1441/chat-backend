@@ -31,7 +31,7 @@ const uploadsPath = path.join(backendRoot, 'uploads'); // Now points to D:\react
 const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigins = [
-      'http://localhost:5173',
+      'https://chat-7myy.vercel.app/',
     ];
     
     if (!origin) return callback(null, true);
